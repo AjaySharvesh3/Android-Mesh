@@ -6,4 +6,6 @@
     <string name="kotlin">Kotlin</string>
     <string name="choose_language">Choose Language</string>
     <string name="sample_data_display_in_toast">Click Here To Send HTTP Request To Server And See Response Displayed As Toast</string>
+    <string name="welcome_to_android_mesh">Welcome to Android Mesh</string>
+    <string name="description">You can change the branch; each branch has it’s own explanatory in upcoming examples and exercises.</string>
 </resources>

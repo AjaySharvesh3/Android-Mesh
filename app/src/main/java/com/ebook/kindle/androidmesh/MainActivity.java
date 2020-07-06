@@ -1,5 +1,7 @@
 package com.ebook.kindle.androidmesh;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -27,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue mRequestQueue;
     private StringRequest mStringRequest;
     private String url = "https://run.mocky.io/v3/9c206e41-1ffb-4c8d-88cd-05c1cfda18ac";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,4 +78,5 @@ public class MainActivity extends AppCompatActivity {
 
         mRequestQueue.add(mStringRequest);
     }
+
 }
