@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:layout_gravity="center"
+    android:layout_marginTop="40dp"
+    tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/buttonRequest"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_to_android_mesh"
-        android:fontFamily="@font/segoe_ui_bold"
-        android:gravity="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="28sp"
-        android:layout_margin="8dp"/>
+        android:layout_height="70dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_button_upload"
+        android:text="@string/sample_data_display_in_toast"
+        android:textColor="#ffffff"
+        android:layout_margin="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/description"
-        android:fontFamily="@font/segoe_ui"
-        android:gravity="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
-        android:layout_margin="8dp"/>
-
-</LinearLayout>
+</RelativeLayout>
