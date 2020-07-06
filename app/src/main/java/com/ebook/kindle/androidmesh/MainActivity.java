@@ -37,12 +37,13 @@ public class MainActivity extends AppCompatActivity {
         //Here we find in the View of Button, that have to be clicked
         btnRequest = (Button) findViewById(R.id.buttonRequest);
 
+
         //Button OnClick is Implemented, while onClick() we are calling the function called sendAndRequestResponse()
         btnRequest.setOnClickListener(new View.OnClickListener() {
               @Override
               public void onClick(View v){
 
-                  sendAndRequestResponse();
+                  sendRequestResponse();
 
               }
         });
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     //This the method where we do operation on Toasting the response in our App
-    private void sendAndRequestResponse() {
+    private void sendRequestResponse() {
 
         //RequestQueue initialized
         mRequestQueue = Volley.newRequestQueue(this);
