@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ebook.kindle.androidmesh">
 
-    <!--Internet Permission -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!--TODO: Internet Permission -->
+
 
     <application
         android:allowBackup="true"
