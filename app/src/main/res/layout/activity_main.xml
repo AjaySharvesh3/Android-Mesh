@@ -5,22 +5,24 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/volley_button"
-        android:layout_width="150dp"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:background="@drawable/custom_button_upload"
-        android:text="@string/volley"
-        android:textColor="@color/white" />
+        android:text="@string/welcome_to_android_mesh"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp"
+        android:layout_margin="8dp"/>
 
-    <Button
-        android:id="@+id/retrofit_button"
-        android:layout_width="150dp"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/custom_button_upload"
-        android:text="@string/retrofit"
-        android:textColor="@color/white" />
-
+        android:text="@string/description"
+        android:fontFamily="@font/segoe_ui"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"/>
 
 </LinearLayout>
