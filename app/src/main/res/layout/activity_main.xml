@@ -8,17 +8,6 @@
     android:layout_marginTop="40dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonRequest"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:background="@drawable/custom_button_upload"
-        android:text="@string/sample_data_display_in_toast"
-        android:textColor="#ffffff"
-        android:layout_margin="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="50dp" />
+    <!--TODO: Create Button View-->
 
 </RelativeLayout>
