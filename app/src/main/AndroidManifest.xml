@@ -12,6 +12,7 @@
 
     <!--TODO #5: Create Java Class (Adapter Class) and name it as PlayerListAdapter, then (Follow eBook) -->
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
