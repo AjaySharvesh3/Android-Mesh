@@ -6,15 +6,9 @@
     <string name="kotlin">Kotlin</string>
     <string name="choose_language">Choose Language</string>
     <string name="sample_data_display_in_toast">Click Here To Send HTTP Request To Server And See Response Displayed As Toast</string>
+    <string name="player_name">Player Name</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
 
-    <string name="employee_salary">Employee Salary</string>
-    <string name="employee_name">Employee Name</string>
-    <string name="employee_age">Employee Age</string>
-    <string name="create_employee">Create Employee</string>
-    <string name="create_new_employee">Create New Employee</string>
-    <string name="created_employee_details">Created Employee Details</string>
-    <string name="salary_na">Salary: NA</string>
-    <string name="age_na">Age: NA</string>
-    <string name="delete">Delete</string>
-    <string name="update">Update</string>
+
 </resources>
