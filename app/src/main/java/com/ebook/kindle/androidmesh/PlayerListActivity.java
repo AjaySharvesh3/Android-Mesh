@@ -2,13 +2,14 @@ package com.ebook.kindle.androidmesh;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 
 public class PlayerListActivity extends AppCompatActivity {
 
     //TODO #7: Created entities as String URL, ProgressDialog, ListView, ArrayList<PlayerModel> and PlayerListAdapter attributes
-
+  
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,11 @@ public class PlayerListActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         //TODO: Identify ListView as findViewById
+
+
+        //TODO: Call fetchingJSON() method
+        
+    }
 
         //TODO: Call retrieveJSON() method
 
@@ -35,5 +41,6 @@ public class PlayerListActivity extends AppCompatActivity {
 
 
     //TODO: Create method called removeProgressDialog() method, (Follow Book)
+
 
 }
