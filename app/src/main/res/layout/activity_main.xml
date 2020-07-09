@@ -8,6 +8,22 @@
     android:layout_marginTop="40dp"
     tools:context=".MainActivity">
 
-    <!--TODO: Create Button View-->
+    <Button
+        android:id="@+id/volley_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/volley"
+        android:textColor="@color/white" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/retrofit_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/retrofit"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
