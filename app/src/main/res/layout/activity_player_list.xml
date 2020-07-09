@@ -6,13 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".PlayerListActivity">
 
-    <!-- Created ListView layout -->
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/player_lv"
-        android:layout_marginTop="10dp">
-    </ListView>
+    <!-- TODO #6 :Created ListView layout -->
 
 
 </RelativeLayout>
