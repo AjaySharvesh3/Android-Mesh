@@ -40,7 +40,7 @@ public class PlayerListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_player_list);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Tennis Players");
+        actionBar.setTitle("Players List");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         //Identify ListView as findViewById
