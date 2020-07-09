@@ -16,7 +16,7 @@ public class PlayerListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_player_list);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Player List");
+        actionBar.setTitle("Players List");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         //TODO: Identify ListView as findViewById
