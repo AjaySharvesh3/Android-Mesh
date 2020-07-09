@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".PlayerListActivity">
 
-    <!-- TODO #6: Create ListView layout -->
+    <!-- TODO #6: Create RecyclerView layout -->
+
 
 </RelativeLayout>

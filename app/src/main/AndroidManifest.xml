@@ -6,11 +6,11 @@
     <!--TODO #2: Permission to use Internet -->
 
 
-    <!--TODO #3: Create Java Class (Model Class) and name it as PlayerModel, then (Follow eBook)  -->
+    <!--TODO #3: Create Java Class (Model Class) and name it as PlayerModel, then (Follow Book)  -->
 
-    <!--TODO #4: Create Proper Layout for ListView, right click on res -> layout directory and select New -> Layout Resource File and name the file as player_item, than (Follow eBook) -->
+    <!--TODO #4: Create Proper Layout for RecyclerView, right click on res -> layout directory and select New -> Layout Resource File and name the file as player_item, than (Follow Book) -->
 
-    <!--TODO #5: Create Java Class (Adapter Class) and name it as PlayerListAdapter, then (Follow eBook) -->
+    <!--TODO #5: Create Java Class (Adapter Class) and name it as PlayerListAdapter, then (Follow Book) -->
 
     <application
         android:allowBackup="true"
