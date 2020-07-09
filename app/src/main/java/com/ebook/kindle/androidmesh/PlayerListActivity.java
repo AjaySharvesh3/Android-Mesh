@@ -29,7 +29,6 @@ public class PlayerListActivity extends AppCompatActivity {
 
         //TODO: Call retrieveJSON() method
 
-    }
 
     //TODO: Create method called fetchingJSON() method, (Follow Book)
 
