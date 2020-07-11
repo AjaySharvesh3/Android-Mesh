@@ -4,8 +4,7 @@
     package="com.ebook.kindle.androidmesh">
 
 
-    <!-- Permission to use Internet -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!--TODO #2: Add Permission to use Internet -->
 
 
     <application
@@ -17,7 +16,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".AddUserActivity"
+        <activity android:name=".UpdateUserActivity"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
