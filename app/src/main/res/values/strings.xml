@@ -10,12 +10,15 @@
     <string name="country">Country</string>
     <string name="city">City</string>
     <string name="enter_user_details">Fill fields to edit user</string>
+    <string name="enter_user_id">Enter user ID to delete the user</string>
     <string name="name">Name</string>
     <string name="add_user">Add User</string>
     <string name="update_user">Update User</string>
+    <string name="delete_user">Delete User</string>
     <string name="job">Job</string>
     <string name="added_user_details">Added user details</string>
     <string name="updated_user_details">Updated user details</string>
+    <string name="status_code">Response Status Code: </string>
     <string name="user_name">User Name</string>
     <string name="user_job">User Job</string>
     <string name="user_id">User ID</string>

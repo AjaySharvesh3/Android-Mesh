@@ -5,13 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UpdateUserActivity">
+    tools:context=".DeleteUserActivity">
 
-    <!--TODO #3: Create Layout as Two EditTexts for getting Name and Job Data -->
-    <!-- One Button for PUT-ting those Name and Job data -->
-    <!-- Three Main TextViews for capturing successful response data -->
+    <!--TODO #3: Create Layout as One EditText for getting User ID -->
+    <!-- One Button for deleting the user -->
+    <!-- One TextView for capturing Status Code -->
     <!-- Refer BOOK -->
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
