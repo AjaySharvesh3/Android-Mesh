@@ -4,7 +4,8 @@
     package="com.ebook.kindle.androidmesh">
 
 
-    <!--TODO #2: Add Permission to use Internet -->
+    <!--Permission to use Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
 
     <application
