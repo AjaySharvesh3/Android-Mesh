@@ -27,6 +27,9 @@
     <string name="title">Title</string>
     <string name="body">Body</string>
     <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="version">Version</string>
+    <string name="api_level">API Level</string>
 
 
 </resources>

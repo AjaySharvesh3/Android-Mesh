@@ -6,9 +6,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="30dp"
-    tools:context=".PostActivity">
+    android:padding="10dp"
+    tools:context=".AndroidVersionActivity">
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
