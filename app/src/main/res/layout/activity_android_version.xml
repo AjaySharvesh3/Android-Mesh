@@ -9,11 +9,9 @@
     android:padding="5dp"
     tools:context=".AndroidVersionActivity">
 
-    <!--TODO #3: Create RecyclerView Layout -->
-
-
-
-    <!--TODO #4: Create new layout file called
-    version_item.xml (Follow Book) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
