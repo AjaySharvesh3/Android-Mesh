@@ -6,12 +6,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
+    android:padding="5dp"
     tools:context=".AndroidVersionActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!--TODO #3: Create RecyclerView Layout -->
+
+
+
+    <!--TODO #4: Create new layout file called
+    version_item.xml (Follow Book) -->
 
 </LinearLayout>
