@@ -3,13 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.ebook.kindle.androidmesh">
 
-
     <!--TODO #2: Permission to use Internet -->
-
-
-
-    <!--TODO #3: Permission to use Internet -->
-
 
 
     <application
