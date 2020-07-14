@@ -23,6 +23,10 @@
     <string name="user_job">User Job</string>
     <string name="user_id">User ID</string>
     <string name="time_stamp">Time Stamp</string>
+    <string name="publish_your_post">Publish your post</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="submit">Submit</string>
 
 
 </resources>
