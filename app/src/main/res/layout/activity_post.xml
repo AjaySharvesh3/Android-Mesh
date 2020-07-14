@@ -9,6 +9,47 @@
     android:padding="30dp"
     tools:context=".PostActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:textColor="@color/grey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/publish_your_post"/>
 
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/segoe_ui"
+        android:textColor="@color/grey"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"/>
+
+    <EditText
+        android:id="@+id/et_body"
+        android:lines="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/segoe_ui"
+        android:textColor="@color/grey"
+        android:hint="@string/body"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="@string/submit"/>
+
+    <TextView
+        android:id="@+id/tv_response"
+        android:layout_marginTop="35dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

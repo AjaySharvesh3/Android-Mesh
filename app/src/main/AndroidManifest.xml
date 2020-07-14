@@ -4,8 +4,8 @@
     package="com.ebook.kindle.androidmesh">
 
 
-    <!-- Add Permission to use Internet -->
-
+    <!-- Permission to use Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
