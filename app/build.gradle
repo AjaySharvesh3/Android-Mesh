@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
 
-    //Retrofit & GSON Dependency
+    //TODO #1: Add Retrofit & GSON Dependency
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation   'com.squareup.retrofit2:converter-gson:2.9.0'

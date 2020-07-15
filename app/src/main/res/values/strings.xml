@@ -35,6 +35,7 @@
     <string name="update_your_post">Update your post</string>
     <string name="update">Update</string>
     <string name="updated_post_display_here">Updated Post Display Here</string>
+    <string name="delete">Delete</string>
 
 
 </resources>
