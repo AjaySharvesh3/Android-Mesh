@@ -28,9 +28,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class PostActivity extends AppCompatActivity {
 
-    /** TODO #6: Create entities for the layout and identify by findViewById
-     * Create a method called createPost() and do POST call (Follow Book)
-     * */
     private TextView textViewResult;
     private EditText userIDEt;
     private EditText titleEt;
