@@ -8,11 +8,6 @@
     tools:context=".UpdatePostActivity">
 
 
-    <!--TODO #5: Create layout as 2 EditTexts for Title & Body
-                One Button to do PUT call
-                One TextView for capturing Response -->
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
