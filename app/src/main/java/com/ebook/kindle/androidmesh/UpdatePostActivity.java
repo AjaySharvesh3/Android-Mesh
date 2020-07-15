@@ -16,9 +16,6 @@ import com.ebook.kindle.androidmesh.model.PostModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -26,26 +23,32 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-public class PostActivity extends AppCompatActivity {
+public class UpdatePostActivity extends AppCompatActivity {
+
+
+    /** TODO #6: Create entities for the layout and identify by findViewById
+     * Create a method called updatePost() and do PUT call (Follow Book)
+     * */
+
 
     private TextView textViewResult;
-    private EditText userIDEt;
     private EditText titleEt;
-    private Button postBtn;
+    private EditText bodyEt;
+    private Button updateBtn;
     private JSONPlaceHolderApi jsonPlaceHolderApi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_post);
+        setContentView(R.layout.activity_update_post);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Publish Post");
+        actionBar.setTitle("Update Post");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        userIDEt = findViewById(R.id.user_id_et);
         titleEt = findViewById(R.id.title_et);
-        postBtn = findViewById(R.id.post_btn);
+        bodyEt = findViewById(R.id.body_et);
+        updateBtn = findViewById(R.id.post_btn);
 
         textViewResult = findViewById(R.id.text_view_result);
 
@@ -58,26 +61,27 @@ public class PostActivity extends AppCompatActivity {
         jsonPlaceHolderApi = retrofit.create(JSONPlaceHolderApi.class);
 
 
-        postBtn.setOnClickListener(new View.OnClickListener() {
+        updateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                createPost();
+                updatePost();
             }
         });
 
     }
 
-    private void createPost() {
-        Map<String, String> fields = new HashMap<>();
-        fields.put("userId", userIDEt.getText().toString());
-        fields.put("title", titleEt.getText().toString());
+    private void updatePost() {
+        String title = titleEt.getText().toString();
+        String body = bodyEt.getText().toString();
 
-        final ProgressDialog loading = new ProgressDialog(PostActivity.this);
+        PostModel post = new PostModel(29, title, body);
+        Call<PostModel> call = jsonPlaceHolderApi.putPost(30, post);
+
+        final ProgressDialog loading = new ProgressDialog(UpdatePostActivity.this);
         loading.setMessage("Please Wait...");
         loading.setCanceledOnTouchOutside(false);
         loading.show();
 
-        Call<PostModel> call = jsonPlaceHolderApi.createPost(fields);
         call.enqueue(new Callback<PostModel>() {
             @SuppressLint("SetTextI18n")
             @Override
@@ -94,13 +98,13 @@ public class PostActivity extends AppCompatActivity {
                 content += "ID: " + postResponse.getId() + "\n";
                 content += "User ID: " + postResponse.getUserId() + "\n";
                 content += "Title: " + postResponse.getTitle() + "\n";
+                content += "Body: " + postResponse.getText() + "\n";
                 textViewResult.setText(content);
             }
-            @SuppressLint("SetTextI18n")
             @Override
             public void onFailure(Call<PostModel> call, Throwable t) {
                 loading.dismiss();
-                textViewResult.setText("Error: " + t.getMessage());
+                textViewResult.setText(t.getMessage());
             }
         });
     }

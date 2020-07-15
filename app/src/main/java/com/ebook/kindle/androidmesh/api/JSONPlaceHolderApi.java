@@ -2,16 +2,14 @@ package com.ebook.kindle.androidmesh.api;
 
 import com.ebook.kindle.androidmesh.model.PostModel;
 
-import java.util.Map;
 import retrofit2.Call;
-import retrofit2.http.FieldMap;
-import retrofit2.http.FormUrlEncoded;
-import retrofit2.http.POST;
+import retrofit2.http.Body;
+import retrofit2.http.PUT;
+import retrofit2.http.Path;
 
 public interface JSONPlaceHolderApi {
 
-    @FormUrlEncoded
-    @POST("posts")
-    Call<PostModel> createPost(@FieldMap Map<String, String> fields);
+    @PUT("posts/{id}")
+    Call<PostModel> putPost(@Path("id") int id, @Body PostModel post);
 
 }

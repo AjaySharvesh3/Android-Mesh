@@ -32,6 +32,9 @@
     <string name="api_level">API Level</string>
     <string name="post">POST</string>
     <string name="published_post_display_here">Published post display here</string>
+    <string name="update_your_post">Update your post</string>
+    <string name="update">Update</string>
+    <string name="updated_post_display_here">Updated Post Display Here</string>
 
 
 </resources>
