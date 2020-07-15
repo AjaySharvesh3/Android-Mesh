@@ -4,6 +4,11 @@
     package="com.ebook.kindle.androidmesh">
 
     <!--TODO #2: Permission to use Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <!--TODO #3: Create sub-package as model and create Java class inside model sub-package and name it as PostModel -->
+    <!--TODO #4: Create sub-package as api and create Java Interface inside api sub-package and name it as JSONPlaceHolderApi -->
 
 
     <application
@@ -15,7 +20,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".AndroidVersionActivity"
+        <activity android:name=".PostActivity"
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>

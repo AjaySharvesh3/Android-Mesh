@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements BottomSheetDialog
     @Override
     public void onTextClicked(String text) {
         if (text.equals("Java")) {
-            Intent i = new Intent(MainActivity.this, AndroidVersionActivity.class);
+            Intent i = new Intent(MainActivity.this, PostActivity.class);
             startActivity(i);
         }
 

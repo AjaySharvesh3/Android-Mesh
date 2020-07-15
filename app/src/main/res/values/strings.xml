@@ -30,6 +30,8 @@
     <string name="email">Email</string>
     <string name="version">Version</string>
     <string name="api_level">API Level</string>
+    <string name="post">POST</string>
+    <string name="published_post_display_here">Published post display here</string>
 
 
 </resources>
