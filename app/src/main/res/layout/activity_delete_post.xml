@@ -7,12 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".DeletePostActivity">
 
-
-    <!--TODO #5: Create layout as 1 EditText for User ID
-                 One Button to do DELETE call
-                 One TextView for capturing Status Code -->
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

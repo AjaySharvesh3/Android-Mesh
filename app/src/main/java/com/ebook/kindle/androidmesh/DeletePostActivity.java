@@ -25,11 +25,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DeletePostActivity extends AppCompatActivity {
 
-
-    /** TODO #6: Create entities for the layout and identify by findViewById
-     * Create a method called deletePost() and do DELETE call (Follow Book)
-     * */
-
     private TextView textViewResult;
     private EditText userIdEt;
     private Button deleteBtn;
