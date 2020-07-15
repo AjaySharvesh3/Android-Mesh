@@ -4,7 +4,7 @@
     package="com.ebook.kindle.androidmesh">
 
     <!--TODO #2: Add Permission to use Internet -->
-    <uses-permission android:name="android.permission.INTERNET" />
+
 
 
     <!--TODO #3: Create sub-package as model and create Java class inside model sub-package and name it as PostModel -->
